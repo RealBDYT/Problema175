@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int g;
+    int o;
+
+    //nr capete si picoare
+
+    cout<<"Nr de gaini??"<<endl;
+    cin>>g;
+
+    cout<<"Nr de oi??"<<endl;
+    cin>>o;
+
+    cout<<"nr de capete:"<<" "<<g + o<<" "<<"nr de picioare:"<<" "<<g * 2 + o * 4<<endl;
+
+    return 0;
+}
